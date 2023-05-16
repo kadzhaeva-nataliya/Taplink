@@ -1,3 +1,36 @@
 * {
     box-sizing: border-box;
 }
+body {
+    background-color: #F5F5F5; /*Фоновый цвет*/
+    padding: 15px; /*размер поля (сверху)*/
+    font-family: 'Inter', sans-serif;
+    
+}
+
+ /* Для секции div задан класс page-wrapper*/
+.page-wrapper {
+    max-width: 368px; 
+    margin: auto; /* выравниевание по центру*/
+    background: #EDEAEA;
+    border: 1px solid #000000;
+    box-shadow: 0px 0px 30px rgba(120, 119, 119, 0.25);
+    border-radius: 20px;
+    
+}
+.header{
+    padding: 21px 89px 136px 28px; /*отступы верхняя, правая, нижняя, левая стороны */
+    color: #000000;
+        background: url('../img/header-bg.png')no-repeat center / cover;
+    border-radius: 0px 0px 52px 52px;
+}
+.hello {
+    font-weight: 500;
+    font-size: 25px;
+    line-height: 30px;
+}
+.hello-text {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+}
