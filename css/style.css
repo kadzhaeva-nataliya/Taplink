@@ -10,6 +10,7 @@ body {
 
  /* Для секции div задан класс page-wrapper*/
 .page-wrapper {
+    overflow: hidden;
     max-width: 368px; 
     margin: auto; /* выравниевание по центру*/
     background: #EDEAEA;
@@ -18,11 +19,15 @@ body {
     border-radius: 20px;
     
 }
+.container{
+    max-width: 300px;
+    margin: auto;
+}
 .header{
     padding: 21px 89px 136px 28px; /*отступы верхняя, правая, нижняя, левая стороны */
     color: #000000;
         background: url('../img/header-bg.png')no-repeat center / cover;
-    border-radius: 0px 0px 52px 52px;
+    border-radius: 20px 20px 52px 52px;
 }
 .hello {
     font-weight: 500;
@@ -33,4 +38,34 @@ body {
     font-weight: 500;
     font-size: 16px;
     line-height: 19px;
+}
+.user {
+    margin-top: -35px;
+    text-align: center; /*Выравнивание текста по центру*/
+    background: #FFFFFF;
+    box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.05);
+    border-radius: 10px;
+    padding-bottom: 5px;
+}
+.user-avatar {
+    margin-top: -43px;
+    border-radius: 50%;
+    object-fit: cover; /*картинка не растягивается*/
+    border: 3px solid #FAFAFA;
+
+}
+.user-name {
+    margin-top: 7px;
+    margin-bottom: 4px;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 32px;
+    color: #000000;
+}
+.user-description {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 25px;
+    color: #000000;
+    margin-top: 4px;
 }
